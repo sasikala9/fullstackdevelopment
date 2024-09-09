@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>regestration form</title>
+</head>
+<body>
+    <h1>Forms In Html</h1>
+    <form action="./thankyou.html"></form>
+    <iframe style="height:50px;width:700px;" src="" frameborder="3"></iframe>
+    <form>
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label for="first_name">First Name:</label> 
+            <input type="text" id="first_name" placeholder="enter your first name here" name="First name" required></label>
+            <br><br>
+            <label for="last_name">Last Name:</label> 
+            <input type="text" id="last_name" placeholder="enter youe last ame here" name="last name" required></label><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="enter your email ID"><br><br> 
+            <label for="number"> Phone Number:</label>
+            <input type="number" id="number" placeholder="enter your phone number" required><br><br>
+            <label for="dateofbirth">Date of Birth:</label>
+            <input type="date" id="dateofbirth" name="date of Birth"><br><br>
+            <lable for="gender" id="gender">Gender:</lable>
+            <label>male</label>
+            <input type="radio" id="gender" name="title">
+            <label>female</label>
+            <input type="radio" id="gender" name="title">
+            <LABEL>trans</LABEL>
+            <input type="radio" id="gender" name="title"><br><br>
+            <label for="payment">Payment:  </label>
+            <select id="payment" name="payment">
+                <option value="visa">visa</option>
+                <option value="mastercard">mastercard</option>
+                <option value="giftcard">giftcard</option>
+            </select><br><br>
+            <label for="reset">Reset</label>
+            <input type="checkbox" id="reset" name="reset">
+            <button>submit</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>
